@@ -30,6 +30,9 @@ pip install ansible
 echo 'Installing docker-py.'
 pip install docker-py
 
+echo 'Installing netaddr'
+pip install netaddr
+
 echo -n 'Cleaning up container…'
 
 rm -rf \
