@@ -25,6 +25,9 @@ python /docker/get-pip.py
 echo 'Installing Ansible.'
 pip install ansible
 
+echo 'Installing netaddr'
+pip install netaddr
+
 echo -n 'Cleaning up container…'
 
 rm -rf \
