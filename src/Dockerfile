@@ -14,5 +14,5 @@ RUN apk --update add busybox \
     ca-certificates \
     docker \
     ansible \
-    tzdata \
-    && rm -rf /root/.cache /var/cache
+    tzdata
+#   && rm -rf /root/.cache /var/cache
