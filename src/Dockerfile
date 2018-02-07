@@ -7,6 +7,7 @@ RUN apk --update add busybox \
     py-crypto \
     py-cryptography \
     py-cffi \
+    py2-backports.ssl_match_hostname \
     python \
     py2-pip \
     docker-py \
