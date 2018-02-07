@@ -18,3 +18,5 @@ RUN apk --update add busybox \
     curl \
     tzdata
 #   && rm -rf /root/.cache /var/cache
+
+RUN mkdir -p /opt/bin && ln -sf /usr/bin/python /opt/bin/python
